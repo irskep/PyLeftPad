@@ -20,4 +20,7 @@ def leftpad(s, n, ch=' '):
     !!Avoid unnecessary dependencies.
     ```
     """
-    return ch * n + s
+    if len(s) < n:
+        return ch * (n - len(s)) + s
+    else:
+        return s

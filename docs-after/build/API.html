@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>PyLeftPad: The PyLeftPad API</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="static/normalize.css" type="text/css" /><link rel="stylesheet" href="static/default.css" type="text/css" /><link rel="stylesheet" href="static/pygments.css" type="text/css" />
+    </head>
+    <body>
+        <header id="pageheader">
+            <a class="header-link" href="index.html"><h1>PyLeftPad <span class="project-version">4.0</span></h1></a>
+            <h2>It pads on the left</h2>
+            <div id="navheader"><nav class='previous-page'><a href="index.html">&larr; Introduction</a></nav><div style="clear: both;"></div></div>
+            <hr>
+        </header>
+        <main id="pagebody"><article><a href="#The-PyLeftPad-API" name="The-PyLeftPad-API" class='header-anchor'><h1>The PyLeftPad API</h1></a><p>The <code>leftpad</code> module contains one function, <code>leftpad</code>.</p><section class='autodoc-function'><a href="#leftpad.leftpad" name="leftpad.leftpad" class='header-anchor'><h2><code><span class='autodoc-keyword'>function </span><span class='autodoc-identifier'>leftpad.leftpad</span><span class='autodoc-arguments'>(s, n, ch=&#x27; &#x27;)</span></code><a class='autodoc-source-link' href='https://github.com/irskep/PyLeftPad/blob/master/leftpad.py#L1'>src</a></h2></a><div class='autodoc-function-docstring-body'><p>Adds <i>n</i> instances of <i>ch</i> on the left side of the string <i>s</i>.</p><p>Arguments:</p><ul><li><p><i>s</i>: a string</p></li><li><p><i>n</i>: number of instances of <i>ch</i> to add on the left</p></li><li><p><i>ch</i>: the character to pad with. Defaults to <code>&#x27; &#x27;</code>.</p></li></ul><p>Example:</p><figure class='code'><div class="highlight"><pre><span></span><span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;Avoid unnecessary dependencies.&quot;</span>
+<span class="k">print</span><span class="p">(</span><span class="n">leftpad</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">))</span>
+</pre></div>
+</figure><p>Prints:</p><figure class='code'><pre class='raw'>!!Avoid unnecessary dependencies.
+</pre></figure></div></section></article></main>
+        <footer id="pagefooter"><nav class='previous-page'><a href="index.html">&larr; Introduction</a></nav><div style="clear: both;"></div></footer>
+    </body>
+</html>

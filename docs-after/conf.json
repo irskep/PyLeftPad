@@ -1,0 +1,14 @@
+{
+    "site_title": "PyLeftPad",
+    "site_subtitle": "It pads on the left",
+    "project_version": "4.0",
+    "html": {
+        "css_files": [],
+        "site_url": "http://steveasleep.com/PyLeftPad/"
+    },
+    "file_hierarchy": ["*.md"],
+    "python3.5": {
+        "symbols_path": "./build/symbols.json",
+        "source_code_url_format": "https://github.com/irskep/PyLeftPad/blob/master/{relative_path}#L{line_number}"
+    }
+}

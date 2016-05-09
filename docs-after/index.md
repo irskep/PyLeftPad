@@ -1,12 +1,7 @@
-# PyLeftPad v1.0
-
 PyLeftPad is a reimplementation of the popular JavaScript library
 [left-pad](https://github.com/stevemao/left-pad).
 
-# Table of contents
-
-* [Introduction](#introduction)
-* [API](#api)
+<table-of-contents />
 
 # Introduction
 
@@ -25,5 +20,6 @@ leftpad('foobar', 6)
 
 leftpad(1, 2, '0')
 # => "01"
+```
 
-For more information, see [The PyLeftPad API](API.md).
+For more information, see <heading-link name="api" />.
